@@ -1,11 +1,11 @@
-describe '四則演算' do
-  context '足し算' do
-    it '1 + 1　は 2 になる'do
+describe "四則演算" do
+  context "足し算" do
+    it "1 + 1　は 2 になる"do
       expect(1 + 1).to eq 4
     end
   end
-  context '足し算' do
-    it '1 + 1 は 2になる' do
+  context "足し算" do
+    it "1 + 1 は 2になる" do
       expect(1 + 1).to eq 2
     end
   end
